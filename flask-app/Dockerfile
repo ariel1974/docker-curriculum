@@ -2,7 +2,7 @@
 FROM python:2.7-onbuild
 
 # tell the port number the container should expose
-EXPOSE 5000
+EXPOSE 5556
 
 # run the command
 CMD ["python", "./app.py"]
